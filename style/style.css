@@ -3,6 +3,27 @@ body{
     margin: 0;
     background-color: #0e171f;
     color: #0e171f;
-    
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
 
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.card-section{
+    display: grid;
+    gap: 1.75rem;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.card{
+    background-color: #58b19f;
+    padding: 1.75rem;
+    border-radius: 1.75rem;
+    display: flex;
+    flex-wrap: wrap;
 }
