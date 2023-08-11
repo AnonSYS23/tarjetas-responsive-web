@@ -27,3 +27,37 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
+
+.card .card-header{
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.card .card-body{
+    flex-basis: 100%;
+    margin-top: 1.2rem;
+}
+
+.card .card-body p{
+    margin: 0;
+}
+
+.card .card-body a{
+    text-decoration: none;
+    color: #fafbff;
+    display: inline-block;
+    padding: 0.7rem 1.75rem;
+    border: 1px solid transparent;
+    background-color: #0e171f;
+    border-radius: 1.65rem;
+    margin-top: 1.2rem;
+    transition: background-color 0.4s ease-in, color 0.4s ease-in;
+}
+
+.card .card-footer{
+    flex-basis: 100%;
+    align-self: flex-end;
+    text-align: end;
+    font-size: 0.8rem;
+}
